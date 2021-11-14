@@ -1,10 +1,10 @@
-package edu.usue.zpie.dav.task02;
+package main.java.edu.usue.zpie.dav.task02;
 
 import java.util.List;
 
 public class Record {
-    private String name;
-    private List<Integer> fields;
+    private final String name;
+    private final List<Integer> fields;
 
     public Record(String name, List<Integer> fields) {
         this.name = name;
